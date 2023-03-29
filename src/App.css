@@ -1,0 +1,7 @@
+.Banner{
+    background-image: url('../public/images/download.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}

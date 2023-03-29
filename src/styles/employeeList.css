@@ -1,0 +1,94 @@
+
+.employee_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.empData{
+ 
+    height: 390px;
+    width: 40%;
+    background-color: rgb(195, 206, 206);
+    margin: 30px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow: 6px 5px  8px rgb(68, 86, 66);
+}
+
+.bookcard{
+
+    height: 390px;
+    width: 70%;
+    
+    text-align: left;
+    border-radius: 10px;
+    justify-content: space-around;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 7px;
+}
+.img{
+    display: flex;
+    
+}
+.img img{
+   
+    height: fit-content;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 250px;
+    width: 180px;
+    border: 2px solid black;
+    border-radius: none;
+}
+.bookcard button{
+    margin: 0px;
+}
+
+
+
+.bookcard button{
+    width: 120px;
+    padding: 10px 0;
+    
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ .bookcard button:hover{
+    background-color:  rgb(31, 126, 39);
+    color:black;
+ }
+ .readBook button{
+    width: 120px;
+    padding: 10px 0;
+    
+    margin-top: 30px;
+    margin-bottom: 4px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    /* background: transparent; */
+    color:black;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+ }
+
+ .readBook button:hover{
+    background-color:  black;
+    color:white;
+ }
